@@ -1,0 +1,11 @@
+aside{
+    padding: 2rem 0;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include laptop {
+        background-color: blue;
+    }   
+}

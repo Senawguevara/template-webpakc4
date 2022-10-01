@@ -1,0 +1,10 @@
+main{
+    background-color: aquamarine;
+    
+
+    @include laptop {
+        background-color: red;
+    }   
+    
+
+}
